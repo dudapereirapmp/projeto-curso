@@ -17,5 +17,3 @@ Um aplicativo simples para gerenciar tarefas com uma interface web e backend em 
 - **Frontend:** HTML, CSS, JavaScript.
 - **Backend:** Python com Flask.
 
-## Contribuição
-Sinta-se à vontade para enviar pull requests com melhorias!
