@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gastos Mensais</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Calculadora de Gastos Mensais</h1>
+    <form method="POST">
+        <label for="gasto">Digite um gasto:</label>
+        <input type="number" id="gasto" name="gasto" required>
+        <button type="submit">Adicionar Gasto</button>
+    </form>
+    <h2>Gastos:</h2>
+    <ul>
+        {% for gasto in gastos %}
+        <li>R$ {{ gasto }}</li>
+        {% endfor %}
+    </ul>
+    <h3>Total: R$ {{ total }}</h3>
+</body>
+</html>

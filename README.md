@@ -70,3 +70,5 @@ O objetivo deste projeto é desenvolver uma **aplicação web** simples usando *
 
 1. **Clone o repositório**:
    ```bash
+   git clone https://dudapereirapmp.github.io/projeto-curso/
+   http://127.0.0.1:5000
