@@ -8,14 +8,14 @@ h1 {
     color: #333;
 }
 button {
-    background-color: #4CAF50;
+    background-color: #2374d0;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
 }
 button:hover {
-    background-color: #45a049;
+    background-color: #2686c2;
 }
 ul {
     list-style-type: none;
